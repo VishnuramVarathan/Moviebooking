@@ -7,6 +7,8 @@ import { AdminComponent } from './admin/admin.component';
 import { UserComponent } from './admin/user/user.component';
 import { UserRolesComponent } from './admin/user-roles/user-roles.component';
 import { UserGroupsComponent } from './admin/user-groups/user-groups.component';
+import { MasterComponent } from './master/master.component';
+import { RegistrationComponent } from './master/registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { UserGroupsComponent } from './admin/user-groups/user-groups.component';
     AdminComponent,
     UserComponent,
     UserRolesComponent,
-    UserGroupsComponent
+    UserGroupsComponent,
+    MasterComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
